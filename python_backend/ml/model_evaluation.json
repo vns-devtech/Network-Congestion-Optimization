@@ -1,0 +1,79 @@
+{
+  "model_type": "Random Forest / Rule Ensemble",
+  "n_estimators": 50,
+  "train_samples": 960,
+  "test_samples": 240,
+  "accuracy": 75.83,
+  "precision_macro": 81.23,
+  "recall_macro": 85.77,
+  "f1_macro": 79.99,
+  "class_metrics": {
+    "Normal": {
+      "precision": 100.0,
+      "recall": 53.21,
+      "f1_score": 69.46,
+      "support": 109
+    },
+    "Moderate": {
+      "precision": 63.92,
+      "recall": 89.86,
+      "f1_score": 74.7,
+      "support": 69
+    },
+    "High": {
+      "precision": 61.02,
+      "recall": 100.0,
+      "f1_score": 75.79,
+      "support": 36
+    },
+    "Severe": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "support": 26
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Normal",
+      "Moderate",
+      "High",
+      "Severe"
+    ],
+    "matrix": [
+      [
+        58,
+        35,
+        16,
+        0
+      ],
+      [
+        0,
+        62,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        36,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        26
+      ]
+    ]
+  },
+  "feature_importances": {
+    "load": 0.312,
+    "latency": 0.248,
+    "packet_loss": 0.194,
+    "user_count": 0.125,
+    "throughput": 0.081,
+    "traffic_volume": 0.028,
+    "signal_strength": 0.012
+  }
+}

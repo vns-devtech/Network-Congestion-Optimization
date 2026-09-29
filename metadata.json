@@ -1,0 +1,6 @@
+{
+  "name": "Smart Mobile Network Congestion Detection and Optimization System",
+  "description": "An academic testbed and Network Operations Center dashboard for detecting, predicting, and optimizing mobile network congestion in crowded areas through multi-KPI scoring, ML risk forecasting, and traffic redistribution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
